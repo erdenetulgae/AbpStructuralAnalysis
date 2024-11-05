@@ -1,0 +1,1 @@
+This repo contains the data, references to bioinformatics tools and links to relevant server jobs used for the analysis of AbpA for a project studying the interactions of AbpA to human salivary α-amylase. Please see (Abp)[Abp].
