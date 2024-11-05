@@ -17,9 +17,7 @@ Structures for the complex of AbpA-SA may be useful in structure-based drug desi
 
 A previous mutation based analysis on the secondary binding sites of SA probed the residues involved directly in SA binding to bacteria and AbpA (Ragunath et al., 2008). These results reveal residues W284, Y276 and W203 as a critical binding site for the interaction of AbpA to SA. The first binding site, W284 and Y276, is part of the interface of dimerised SA as visualised in figure 4. This may suggest that the binding of AbpA is primarily to the dimerised form of SA. Another study on the binding of _Fusobacterium_ showed more binding to the dimeric form than the monomeric form of amylase (Zulfiqar et al., 2013), however more research is needed to confirm if _Fusobacterium_ binding protein is similar to AbpA.
 
-In the first run, the highly conserved residue H45 of AbpA was input to HADDOCK (van Zundert et al., 2016) as directly involved in the binding interactions of AbpA and HSA. On the receptor side, the critical residue W203 of SA was used to anchor the docking of AbpA to SA in HADDOCK. W284 and Y276 were not specified as actively participating in the binding.
-
-interactions with the hindsight that they are direct participants in the dimerization of SA, not conclusively AbpA binding; it is worth noting that these buried residues were not completely ruled out of docking simulations. The output provided 10 clusters of binding conformations with comparable binding scores and energies.
+In the first run, the highly conserved residue H45 of AbpA was input to HADDOCK (van Zundert et al., 2016) as directly involved in the binding interactions of AbpA and HSA. On the receptor side, the critical residue W203 of SA was used to anchor the docking of AbpA to SA in HADDOCK. W284 and Y276 were not specified as actively participating in the binding interactions with the hindsight that they are direct participants in the dimerization of SA, not conclusively AbpA binding; it is worth noting that these buried residues were not completely ruled out of docking simulations. The output provided 10 clusters of binding conformations with comparable binding scores and energies.
 
 Liang et al. (2016) studied the residues directly involved in the binding of AbpA through NMR titration and found that the residues K26/27, Y121/Y122, V106/L107 reside in the interface of the AbpA-SA complex. These residues were input in the second run instead of the highly conserved residues from the multiple sequence alignment. The results showed 2 new clusters with more favourable HADDOCK scores than the first run (Clusters 1 and 2). The scores and binding energies were more variable compared to the first run, likely due to the input of more anchoring points.
 
@@ -79,9 +77,19 @@ Kuraku, S., Zmasek, C.M., Nishimura, O. & Katoh, K. (2013) aLeaves facilitates o
 
 Liang, X., Liu, B., Zhu, F., Scannapieco, F.A., Haase, E.M., Matthews, S. & Wu, H. (2016) A distinct sortase SrtB anchors and processes a streptococcal adhesin AbpA with a novel structural property. _Scientific Reports_. 6 (1), 30966. doi:[10.1038/srep30966](https://doi.org/10.1038/srep30966).
 
+London, N., Raveh, B., Movshovitz-Attias, D. & Schueler-Furman, O. (2010a) Can Self-Inhibitory Peptides be Derived from the Interfaces of Globular Protein-Protein Interactions? _Proteins_. 78 (15), 3140. doi:[10.1002/prot.22785](https://doi.org/10.1002/prot.22785).
+
+London, N., Raveh, B., Movshovitz-Attias, D. & Schueler-Furman, O. (2010b) Can Self-Inhibitory Peptides be Derived from the Interfaces of Globular Protein-Protein Interactions? _Proteins_. 78 (15), 3140. doi:[10.1002/prot.22785](https://doi.org/10.1002/prot.22785).
+
+Lyskov, S., Chou, F.-C., Conchúir, S.Ó., Der, B.S., Drew, K., Kuroda, D., Xu, J., Weitzner, B.D., Renfrew, P.D., Sripakdeevong, P., Borgo, B., Havranek, J.J., Kuhlman, B., Kortemme, T., Bonneau, R., Gray, J.J. & Das, R. (2013) Serverification of Molecular Modeling Applications: The Rosetta Online Server That Includes Everyone (ROSIE). _PLOS ONE_. 8 (5), e63906. doi:[10.1371/journal.pone.0063906](https://doi.org/10.1371/journal.pone.0063906).
+
 Madeira, F., Madhusoodanan, N., Lee, J., Eusebi, A., Niewielska, A., Tivey, A.R.N., Lopez, R. & Butcher, S. (2024) The EMBL-EBI Job Dispatcher sequence analysis tools framework in 2024. _Nucleic acids research_. 52 (W1), W521–W525. doi:[10.1093/nar/gkae241](https://doi.org/10.1093/nar/gkae241).
 
 Nikitkova Anna E., Haase Elaine M., & Scannapieco Frank A. (2013) Taking the Starch out of Oral Biofilm Formation: Molecular Basis and Functional Significance of Salivary α-Amylase Binding to Oral Streptococci. _Applied and Environmental Microbiology_. 79 (2), 416–423. doi:[10.1128/AEM.02581-12](https://doi.org/10.1128/AEM.02581-12).
+
+Ragunath, C., Manuel, S.G.A., Venkataraman, V., Sait, H.B.R., Kasinathan, C. & Ramasubbu, N. (2008a) Probing the Role of Aromatic Residues at the Secondary Saccharide-Binding Sites of Human Salivary α-Amylase in Substrate Hydrolysis and Bacterial Binding. _Journal of Molecular Biology_. 384 (5), 1232–1248. doi:[10.1016/j.jmb.2008.09.089](https://doi.org/10.1016/j.jmb.2008.09.089).
+
+Ragunath, C., Manuel, S.G.A., Venkataraman, V., Sait, H.B.R., Kasinathan, C. & Ramasubbu, N. (2008b) Probing the Role of Aromatic Residues at the Secondary Saccharide-Binding Sites of Human Salivary α-Amylase in Substrate Hydrolysis and Bacterial Binding. _Journal of Molecular Biology_. 384 (5), 1232–1248. doi:[10.1016/j.jmb.2008.09.089](https://doi.org/10.1016/j.jmb.2008.09.089).
 
 Scannapieco, F.A., Torres, G. & Levine, M.J. (1993) Salivary alpha-amylase: role in dental plaque and caries formation. _Critical Reviews in Oral Biology and Medicine: An Official Publication of the American Association of Oral Biologists_. 4 (3–4), 301–307. doi:[10.1177/10454411930040030701](https://doi.org/10.1177/10454411930040030701).
 
@@ -89,5 +97,8 @@ Sedan, Y., Marcu, O., Lyskov, S. & Schueler-Furman, O. (2016) Peptiderive server
 
 Sethi, A., Mohanty, B., Ramasubbu, N. & Gooley, P.R. (2015) Structure of amylase-binding protein A of Streptococcus gordonii: a potential receptor for human salivary α-amylase enzyme. _Protein Science: A Publication of the Protein Society_. 24 (6), 1013–1018. doi:[10.1002/pro.2671](https://doi.org/10.1002/pro.2671).
 
-van Zundert, G.C.P., Rodrigues, J.P.G.L.M., Trellet, M., Schmitz, C., Kastritis, P.L., Karaca, E., Melquiond, A.S.J., van Dijk, M., de Vries, S.J. & Bonvin, A.M.J.J. (2016) The HADDOCK2.2 Web Server: User-Friendly Integrative Modeling of Biomolecular Complexes. _Journal of Molecular Biology_. 428 (4), 720–725. doi:[10.1016/j.jmb.2015.09.014](https://doi.org/10.1016/j.jmb.2015.09.014).
+Waterhouse, A., Procter, J., Martin, D., Clamp, M. & Barton, G. (2009) Jalview version 2: A Multiple Sequence Alignment and Analysis Workbench. _Bioinformatics (Oxford, England)_. 25, 1189–1191. doi:[10.1093/bioinformatics/btp033](https://doi.org/10.1093/bioinformatics/btp033).
 
+Zulfiqar, M., Yamaguchi, T., Sato, S. & Oho, T. (2013) Oral subsp. polymorphum binds to human salivary α-amylase. _Molecular Oral Microbiology_. 28 (6), 425–434. doi:[10.1111/omi.12036](https://doi.org/10.1111/omi.12036).
+
+van Zundert, G.C.P., Rodrigues, J.P.G.L.M., Trellet, M., Schmitz, C., Kastritis, P.L., Karaca, E., Melquiond, A.S.J., van Dijk, M., de Vries, S.J. & Bonvin, A.M.J.J. (2016) The HADDOCK2.2 Web Server: User-Friendly Integrative Modeling of Biomolecular Complexes. _Journal of Molecular Biology_. 428 (4), 720–725. doi:[10.1016/j.jmb.2015.09.014](https://doi.org/10.1016/j.jmb.2015.09.014).
