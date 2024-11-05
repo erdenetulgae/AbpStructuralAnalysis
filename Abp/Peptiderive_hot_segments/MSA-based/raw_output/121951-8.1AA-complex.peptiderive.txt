@@ -1,0 +1,78 @@
+# Peptiderive report file complex
+
+- Chains: 2
+- Rosetta version: unknown:c0119b06ba84bbcafae1e10c9f70522fca96970d 2016-11-15 16:39:09 -0800 from https://github.com/RosettaCommons/main.git
+- (*) in the 'Relative interface score (%)' column means positive values were calculated for these entries, indicating unfavorable interactions
+- (**) in the 'Cyclized interface score' column means that a cyclized model was not constructed for this cyclizable peptide, since its energy contribution (in its linear form) was not significant
+- Cyclized peptide models have additional N- and C-terminal cysteine residues, not shown in the 'Sequence' column
+
+
+## Best linear peptides for all chain pairs
+
+| Receptor | Partner | Peptide length | Position | Interface score | Relative interface score (%) | Sequence             |
+|----------|---------|----------------|----------|-----------------|------------------------------|----------------------|
+| A        | B       | 10             | 26       | -11.311         | 89.66                        | NTQVAAHEAE           |
+
+
+## Best cyclizable peptides for all chain pairs
+
+| Receptor | Partner | Peptide length | Position | Interface score | Relative interface score (%) | Disulfide info | Cyclized interface score | Sequence             |
+|----------|---------|----------------|----------|-----------------|------------------------------|----------------|--------------------------|----------------------|
+
+
+## All linear peptides
+
+### Receptor= A Partner= B Peptide_length= 10
+- Total interface score: -12.616
+
+| Position | Interface score | Relative interface score (%) |
+|----------|-----------------|------------------------------|
+| 21       | -3.303          | 26.18                        |
+| 22       | -5.689          | 45.09                        |
+| 23       | -7.207          | 57.13                        |
+| 24       | -8.164          | 64.71                        |
+| 25       | -10.977         | 87.01                        |
+| 26       | -11.311         | 89.66                        |
+| 27       | -10.047         | 79.64                        |
+| 28       | -9.507          | 75.36                        |
+| 29       | -7.892          | 62.56                        |
+| 30       | -7.860          | 62.30                        |
+| 31       | -6.997          | 55.46                        |
+| 32       | -3.827          | 30.33                        |
+| 33       | -3.309          | 26.23                        |
+| 34       | -1.042          | 8.26                         |
+| 35       | -0.158          | 1.25                         |
+| 36       | -0.107          | 0.85                         |
+| 37       | -0.107          | 0.85                         |
+| 38       | -0.027          | 0.21                         |
+| 79       | -0.027          | 0.21                         |
+| 80       | -0.027          | 0.21                         |
+| 81       | -0.027          | 0.21                         |
+| 82       | -0.027          | 0.21                         |
+| 83       | -0.027          | 0.21                         |
+| 94       | -0.109          | 0.86                         |
+| 95       | -0.165          | 1.30                         |
+| 96       | -0.601          | 4.76                         |
+| 97       | -0.611          | 4.84                         |
+| 98       | -0.735          | 5.83                         |
+| 99       | -0.622          | 4.93                         |
+| 100      | -0.622          | 4.93                         |
+| 101      | -0.622          | 4.93                         |
+| 102      | -0.592          | 4.69                         |
+| 103      | -0.556          | 4.41                         |
+| 104      | -0.556          | 4.41                         |
+| 105      | -0.475          | 3.77                         |
+| 106      | -0.035          | 0.28                         |
+| 107      | -0.035          | 0.28                         |
+| 138      | -0.030          | 0.23                         |
+| 139      | -0.030          | 0.23                         |
+| 140      | -0.030          | 0.23                         |
+| 141      | -0.030          | 0.23                         |
+| 142      | -0.030          | 0.23                         |
+---
+
+## All cyclizable peptides
+
+
+
+*end of report*

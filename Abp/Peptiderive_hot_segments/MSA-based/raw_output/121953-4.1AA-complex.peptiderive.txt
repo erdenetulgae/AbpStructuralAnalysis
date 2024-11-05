@@ -1,0 +1,71 @@
+# Peptiderive report file complex
+
+- Chains: 2
+- Rosetta version: unknown:c0119b06ba84bbcafae1e10c9f70522fca96970d 2016-11-15 16:39:09 -0800 from https://github.com/RosettaCommons/main.git
+- (*) in the 'Relative interface score (%)' column means positive values were calculated for these entries, indicating unfavorable interactions
+- (**) in the 'Cyclized interface score' column means that a cyclized model was not constructed for this cyclizable peptide, since its energy contribution (in its linear form) was not significant
+- Cyclized peptide models have additional N- and C-terminal cysteine residues, not shown in the 'Sequence' column
+
+
+## Best linear peptides for all chain pairs
+
+| Receptor | Partner | Peptide length | Position | Interface score | Relative interface score (%) | Sequence             |
+|----------|---------|----------------|----------|-----------------|------------------------------|----------------------|
+| A        | B       | 10             | 31       | -2.924          | 83.55                        | AHEAEIKEET           |
+
+
+## Best cyclizable peptides for all chain pairs
+
+| Receptor | Partner | Peptide length | Position | Interface score | Relative interface score (%) | Disulfide info | Cyclized interface score | Sequence             |
+|----------|---------|----------------|----------|-----------------|------------------------------|----------------|--------------------------|----------------------|
+
+
+## All linear peptides
+
+### Receptor= A Partner= B Peptide_length= 10
+- Total interface score: -3.500 
+
+| Position | Interface score | Relative interface score (%) |
+|----------|-----------------|------------------------------|
+| 31       | -2.924          | 83.55                        |
+| 32       | -2.857          | 81.63                        |
+| 33       | -2.775          | 79.30                        |
+| 34       | -2.815          | 80.42                        |
+| 35       | -2.789          | 79.68                        |
+| 36       | -1.226          | 35.02                        |
+| 37       | -1.220          | 34.85                        |
+| 38       | -1.214          | 34.68                        |
+| 39       | 0.258           | *                            |
+| 40       | 0.344           | *                            |
+| 41       | 0.346           | *                            |
+| 42       | 0.349           | *                            |
+| 83       | 0.029           | *                            |
+| 84       | 0.029           | *                            |
+| 85       | 0.029           | *                            |
+| 86       | 0.029           | *                            |
+| 87       | 0.029           | *                            |
+| 88       | 0.035           | *                            |
+| 89       | 0.035           | *                            |
+| 90       | 0.035           | *                            |
+| 91       | 0.006           | *                            |
+| 92       | 0.003           | *                            |
+| 93       | -0.020          | 0.56                         |
+| 94       | -0.020          | 0.56                         |
+| 95       | -0.651          | 18.59                        |
+| 96       | -0.657          | 18.77                        |
+| 97       | -0.657          | 18.77                        |
+| 98       | -0.663          | 18.94                        |
+| 99       | -0.663          | 18.94                        |
+| 100      | -0.663          | 18.94                        |
+| 101      | -0.655          | 18.73                        |
+| 102      | -0.637          | 18.20                        |
+| 103      | -0.637          | 18.20                        |
+| 104      | -0.632          | 18.07                        |
+| 105      | 0.018           | *                            |
+---
+
+## All cyclizable peptides
+
+
+
+*end of report*
